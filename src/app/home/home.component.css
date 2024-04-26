@@ -1,0 +1,30 @@
+.background-image {
+  background-image: url('/assets/hieroglyphics-characters-golden-egypt.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Ajout de la position relative */
+  opacity: 0.8; /* Ajout de l'opacité */
+}
+
+.background-image button {
+  background-color: #c31414;
+  padding: 30px 40px;
+  border: 5px solid #000000;
+  display: inline-block;
+  position: absolute;
+  bottom: 20px; 
+}
+
+.background-image button:hover {
+  background-color: #a70d0d;
+}
+
+.background-image button:active {
+  transform: scale(0.95);
+}
