@@ -1,1 +1,25 @@
-<p>card works!</p>
+<div class="card-list">
+  <h2>Cards</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Frame Type</th>
+        <th>Description</th>
+        <th>Details</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let card of cards">
+        <td>{{ card.id }}</td>
+        <td>{{ card.name }}</td>
+        <td>{{ card.type }}</td>
+        <td>{{ card.frameType }}</td>
+        <td>{{ card.desc }}</td>
+        <td><a [href]="card.ygoprodeck_url" target="_blank">Details</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
