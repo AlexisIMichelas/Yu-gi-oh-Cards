@@ -1,0 +1,80 @@
+[
+  {
+    "set_name": "2-Player Starter Deck: Yuya & Declan",
+    "set_code": "YS15",
+    "num_of_cards": 42,
+    "tcg_date": "2015-05-28"
+  },
+  {
+    "set_name": "2013 Collectible Tins Wave 1",
+    "set_code": "CT10",
+    "num_of_cards": 9,
+    "tcg_date": "2013-08-30"
+  },
+  {
+    "set_name": "2013 Collectible Tins Wave 2",
+    "set_code": "CT10",
+    "num_of_cards": 9,
+    "tcg_date": "2013-11-22"
+  },
+  {
+    "set_name": "2014 Mega-Tin Mega Pack",
+    "set_code": "MP14",
+    "num_of_cards": 246,
+    "tcg_date": "2014-08-28"
+  },
+  {
+    "set_name": "2014 Mega-Tins",
+    "set_code": "CT11",
+    "num_of_cards": 6,
+    "tcg_date": "2014-08-28"
+  },
+  {
+    "set_name": "2015 Mega-Tin Mega Pack",
+    "set_code": "MP15",
+    "num_of_cards": 247,
+    "tcg_date": "2015-09-17"
+  },
+  {
+    "set_name": "2015 Mega-Tins",
+    "set_code": "CT12",
+    "num_of_cards": 6,
+    "tcg_date": "2015-09-17"
+  },
+  {
+    "set_name": "2016 Mega-Tin Mega Pack",
+    "set_code": "MP16",
+    "num_of_cards": 239,
+    "tcg_date": "2016-09-01"
+  },
+  {
+    "set_name": "2016 Mega-Tins",
+    "set_code": "CT13",
+    "num_of_cards": 12,
+    "tcg_date": "2016-09-01"
+  },
+  {
+    "set_name": "2017 Mega-Tin Mega Pack",
+    "set_code": "MP17",
+    "num_of_cards": 239,
+    "tcg_date": "2017-08-24"
+  },
+  {
+    "set_name": "2017 Mega-Tins",
+    "set_code": "CT14",
+    "num_of_cards": 8,
+    "tcg_date": "2017-08-24"
+  },
+  {
+    "set_name": "2018 Mega-Tin Mega Pack",
+    "set_code": "MP18",
+    "num_of_cards": 233,
+    "tcg_date": "2018-08-30"
+  },
+  {
+    "set_name": "2018 Mega-Tins",
+    "set_code": "CT15",
+    "num_of_cards": 10,
+    "tcg_date": "2018-08-30"
+  }
+] 
