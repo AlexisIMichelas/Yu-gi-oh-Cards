@@ -1,4 +1,4 @@
-.collection-bg {
+.bg {
   background-image: url('/assets/Old-Kingdom.jpg');
   background-size: cover;
   background-position: center;
@@ -8,23 +8,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative; /* Ajout de la position relative */
-  opacity: 0.8; /* Ajout de l'opacité */
+  position: relative;
 }
 
-.collection-bg button {
-  background-color: #c31414;
-  padding: 30px 40px;
-  border: 5px solid #000000;
-  display: inline-block;
-  position: absolute;
-  bottom: 20px;
+.collectionContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 85%;
+  padding: 20px;
+  border-radius: 2vh;
+  position: relative;
 }
 
-.collection-bg button:hover {
-  background-color: #a70d0d;
+.collectionImage {
+  flex: 1;
 }
 
-.background-image button:active {
-  transform: scale(0.95);
-}
+

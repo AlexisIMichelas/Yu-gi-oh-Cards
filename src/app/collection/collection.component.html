@@ -1,3 +1,9 @@
-<div class="collection-bg">
-  <button routerLink="/collection"></button>
+<div class="bg">
+<div class="collectionContainer">
+  <div class="collectionImage">
+    <img [src]="imgSrc" alt="" style="height: 70vh" />
+  </div>
+
+  <app-card-details [card]="card" (randomize)="randomizeCard()"></app-card-details>
+</div>
 </div>

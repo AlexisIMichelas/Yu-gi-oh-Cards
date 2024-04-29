@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { YGOPRODeckService } from './ygoprodeck.service';
+import { CardsService } from './cards.service';
 
-describe('YGOPRODeckService', () => {
-  let service: YGOPRODeckService;
+describe('CardsService', () => {
+  let service: CardsService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(YGOPRODeckService);
+    service = TestBed.inject(CardsService);
   });
 
   it('should be created', () => {

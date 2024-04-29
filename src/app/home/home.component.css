@@ -8,8 +8,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative; /* Ajout de la position relative */
-  opacity: 0.8; /* Ajout de l'opacité */
+  position: relative;
+  opacity: 0.8; 
 }
 
 .background-image button {
@@ -18,7 +18,7 @@
   border: 5px solid #000000;
   display: inline-block;
   position: absolute;
-  bottom: 20px; 
+  bottom: 20px;
 }
 
 .background-image button:hover {
