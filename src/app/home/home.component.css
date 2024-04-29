@@ -8,23 +8,45 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative; /* Ajout de la position relative */
-  opacity: 0.8; /* Ajout de l'opacité */
+  position: relative;
+  opacity: 0.9;
 }
 
-.background-image button {
+.fade-in {
+  opacity: 0;
+  font-size: 0;
+  color: white;
+  text-shadow: 0 0 5px black; 
+  animation: fadeInAnimation 2s ease forwards;
+}
+
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+    font-size: 0;
+  }
+  to {
+    opacity: 1;
+    font-size: 3em;
+  }
+}
+
+
+.chest-button {
   background-color: #c31414;
   padding: 30px 40px;
   border: 5px solid #000000;
   display: inline-block;
   position: absolute;
-  bottom: 20px; 
+  bottom: 20px;
+  transition: all 0.3s ease; /* Ajout de l'effet de transition */
+  transform-origin: center bottom; /* Définir le point d'origine de la transformation */
 }
 
-.background-image button:hover {
+.chest-button:hover {
   background-color: #a70d0d;
 }
 
-.background-image button:active {
-  transform: scale(0.95);
+.chest-button:active {
+  transform: translateY(5px) rotateX(90deg); /* Appliquer la transformation lors du clic */
 }

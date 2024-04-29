@@ -1,0 +1,51 @@
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #cfcece;
+  width: auto;
+  padding: 20px;
+  border-radius: 2vh;
+  height: 70vh; /* Hauteur fixe */
+  overflow: hidden; /* Masquer le débordement */
+  min-width: 50vw; /* Définir une largeur minimale */
+}
+
+.dataContainer h1,
+.dataContainer span,
+.dataContainer p,
+.dataContainer button {
+  margin: 5px 0;
+  width: auto; /* Ajuster la largeur au contenu */
+}
+
+.cardName {
+  font-size: larger;
+}
+
+.title {
+  color: red;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.info svg {
+  margin-right: 10px;
+}
+
+.info p.name {
+  margin-right: 5px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.dataContainer svg {
+  width: 50px;
+  height: 50px;
+}
