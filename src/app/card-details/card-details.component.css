@@ -1,15 +1,19 @@
+body {
+  margin:0;
+}
+
 .dataContainer {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: #cfcece;
+  background-color: rgba(207, 206, 206, 0.8);
   padding: 20px;
   border-radius: 2vh;
   max-height: 90vh;
   max-width: 130vh;
   min-width: 130vh;
   overflow-y: auto;
-  border:3px solid black;
+  border: 3px solid black;
 }
 
 .attributsGroup {
@@ -17,26 +21,27 @@
   justify-content: center;
   justify-content: space-between;
 }
+
 .attribut {
   display: flex;
   justify-content: center;
 }
 
 .attribut p {
-  margin:13px;
+  margin: 13px;
 }
 
 .dataContainer * {
-  max-height: 100%; /* Hauteur maximale égale à la hauteur du conteneur */
+  max-height: 100%;
   margin: 5px 0;
-  width: auto; /* Ajuster la largeur au contenu */
+  width: auto;
   height: auto;
   overflow: hidden;
 }
 
 .dataContainer button {
-  width:20vh;
-  margin : 2vh auto;
+  width: 20vh;
+  margin: 2vh auto;
 }
 
 .cardName {
@@ -68,34 +73,32 @@
 }
 
 @media only screen and (max-width: 767px) {
- /* Ajustement de la hauteur maximale du conteneur pour les appareils mobiles */
- .dataContainer {
-  max-height: 82vh;
-  min-width:32vh;
-  width:32vh;
-}
+  .dataContainer {
+    max-height: 82vh;
+    min-width: 32vh;
+    width: 32vh;
+  }
 
-/* Ajustement de la largeur maximale du conteneur pour les appareils mobiles */
-.dataContainer {
-  max-width: 44vh;
-}
+  .dataContainer {
+    max-width: 44vh;
+  }
 
-.dataContainer * {
-  height:auto;
-  width:auto;
-}
+  .dataContainer * {
+    height: auto;
+    width: auto;
+  }
 
-.attributsGroup {
-height:6%;
-}
+  .attributsGroup {
+    height: 6%;
+  }
 
-.dataContainer button {
-  width: 50%;
-  margin: 10px auto; /* Centrer horizontalement le bouton */
-}
+  .dataContainer button {
+    width: 50%;
+    margin: 10px auto;
+  }
 
-.name {
-height:auto;
-width:auto;
-}
+  .name {
+    height: auto;
+    width: auto;
+  }
 }

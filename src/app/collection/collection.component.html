@@ -1,10 +1,9 @@
 <body>
-<div class="bg">
-  <div class="CardImage">
-    <img [src]="imgSrc" alt=""/>
+  <div class="bg">
+    <div class="CardImage">
+      <img [src]="imgSrc" alt="" />
+    </div>
+
+    <app-card-details [card]="card" (randomize)="randomizeCard()"></app-card-details>
   </div>
-
-  <app-card-details [card]="card" (randomize)="randomizeCard()"></app-card-details>
-</div>
 </body>
-
