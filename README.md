@@ -1,27 +1,28 @@
-# YuGiOhCards
+Projet Yu-Gi-Oh! Angular 🃏
+Ce projet est une application Angular qui vous permet d'explorer et de découvrir des cartes Yu-Gi-Oh! de manière aléatoire ainsi que leurs informations associées.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.4.
+Comment l'utiliser 🚀
+Assurez-vous d'avoir Node.js installé sur votre machine.
+Clonez ce dépôt sur votre machine locale.
+Naviguez vers le répertoire du projet dans votre terminal.
 
-## Development server
+Exécutez la commande suivante pour installer les dépendances :
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+npm install
 
-## Code scaffolding
+Une fois l'installation terminée, exécutez la commande suivante pour lancer l'application et ouvrir votre navigateur par défaut :
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+ng serve -o
 
-## Build
+Vous serez redirigé vers la page d'accueil de l'application où vous pourrez voir une carte Yu-Gi-Oh! aléatoire ainsi que ses informations associées.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+À venir 📅
+Plusieurs fonctionnalités sont prévues pour cette application, notamment :
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+La possibilité de rechercher des cartes par nom, attribut, type, etc.
+La mise en place de filtres pour affiner les résultats de recherche.
+L'affichage de détails supplémentaires sur chaque carte.
+L'intégration de la traduction automatique pour les différentes langues disponibles.
+La possibilité de sauvegarder des cartes dans une collection personnelle.
+Et bien plus encore !
+Restez à l'écoute pour les mises à jour et les nouvelles fonctionnalités ! 🎉
