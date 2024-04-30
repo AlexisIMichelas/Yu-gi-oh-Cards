@@ -2,30 +2,47 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
   background-color: #cfcece;
-  width: auto;
   padding: 20px;
   border-radius: 2vh;
-  height: 70vh; /* Hauteur fixe */
-  overflow: hidden; /* Masquer le débordement */
-  min-width: 50vw; /* Définir une largeur minimale */
+  max-height: 90vh;
+  max-width: 130vh;
+  min-width: 130vh;
+  overflow-y: auto;
+  border:3px solid black;
 }
 
-.dataContainer h1,
-.dataContainer span,
-.dataContainer p,
-.dataContainer button {
+.attributsGroup {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.attribut {
+  display: flex;
+  justify-content: center;
+}
+
+.attribut p {
+  margin:13px;
+}
+
+.dataContainer * {
+  max-height: 100%; /* Hauteur maximale égale à la hauteur du conteneur */
   margin: 5px 0;
   width: auto; /* Ajuster la largeur au contenu */
+  height: auto;
+  overflow: hidden;
+}
+
+.dataContainer button {
+  width:20vh;
+  margin : 2vh auto;
 }
 
 .cardName {
   font-size: larger;
-}
-
-.title {
-  color: red;
+  display: flex;
+  justify-content: center;
 }
 
 .info {
@@ -46,6 +63,39 @@
 }
 
 .dataContainer svg {
-  width: 50px;
-  height: 50px;
+  width: 5vh;
+  height: 5vh;
+}
+
+@media only screen and (max-width: 767px) {
+ /* Ajustement de la hauteur maximale du conteneur pour les appareils mobiles */
+ .dataContainer {
+  max-height: 82vh;
+  min-width:32vh;
+  width:32vh;
+}
+
+/* Ajustement de la largeur maximale du conteneur pour les appareils mobiles */
+.dataContainer {
+  max-width: 44vh;
+}
+
+.dataContainer * {
+  height:auto;
+  width:auto;
+}
+
+.attributsGroup {
+height:6%;
+}
+
+.dataContainer button {
+  width: 50%;
+  margin: 10px auto; /* Centrer horizontalement le bouton */
+}
+
+.name {
+height:auto;
+width:auto;
+}
 }
