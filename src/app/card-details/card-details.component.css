@@ -89,7 +89,8 @@ body {
   }
 
   .attributsGroup {
-    height: 6%;
+    height: 7vh;
+    width: 4vh;
   }
 
   .dataContainer button {
@@ -98,7 +99,7 @@ body {
   }
 
   .name {
-    height: auto;
+    height: 6vh;
     width: auto;
   }
 }
