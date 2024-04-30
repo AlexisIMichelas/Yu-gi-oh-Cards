@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .background-image {
   background-image: url('/assets/hieroglyphics-characters-golden-egypt.jpg');
   background-size: cover;
@@ -16,7 +20,7 @@
   opacity: 0;
   font-size: 0;
   color: white;
-  text-shadow: 0 0 5px black; 
+  text-shadow: 0 0 5px black;
   animation: fadeInAnimation 2s ease forwards;
 }
 
@@ -30,7 +34,6 @@
     font-size: 3em;
   }
 }
-
 
 .chest-button {
   background-color: #c31414;
